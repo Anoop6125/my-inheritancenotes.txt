@@ -1,0 +1,33 @@
+Inheritance:
+The mechanism of deriving a new class from old class is called inheritance. Getting properties from base class to the derived class is called inheritance. 
+
+* The class which gives properties to the other classes is called base class or super 
+class or parent class. The class which accepts or receives properties from the other 
+classes is called derived class or sub-class or child class. 
+* Inheritance allows subclasses to inherit all the data members and member functions 
+of their parent classes. 
+* The main advantage of inheritance is code reusability. 
+* The “extends” keyword is used in the concept of inheritance. It is used to derive the 
+classes from another class.
+* The “extends” keyword is used in the sub class declaration and it is followed by 
+super class name.
+* Subclass inherits all the data members and member functions from the parent class.
+
+Syntax:
+class derived-class-name extends base-class-name
+{
+Variables-declaration;
+Member-functions definition;
+}
+
+Note:The object must be declared to the derived class only.
+
+
+Types of inheritance
+1. Single inheritance or inheritance
+2. Multilevel inheritance
+3. Multiple inheritance
+4. Hybrid inheritance
+5. Hierarchical inheritance
+
+---------------------------------------------------------------
