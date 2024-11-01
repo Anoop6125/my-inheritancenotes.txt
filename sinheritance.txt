@@ -1,0 +1,47 @@
+1. Single inheritance:
+Derivation of one subclass from only one super class is called single inheritance.
+Syntax: class A
+{
+//code
+}
+class B extends A
+{
+//code
+}
+example :
+class addi {
+    int a,b;
+    void add(){
+        int c;
+        c=a+b;
+        System.out.println("sum of "+a+"and"+b+"is"+c);
+    }
+    void sub(){
+        int c;
+        c=a-b;
+        System.out.println("subtraction of "+a+"and"+b+"is"+c);
+    }
+}
+class boddi extends addi{
+    void mul(){
+        int c ;
+        c= a*b;
+        System.out.println("multiplication of "+a+"and"+b+"is"+c);
+    }
+    void div(){
+        double c ;
+        c=(double)a/b;
+        System.out.println("division of "+a+"and"+b+"is"+c);
+    }
+    public static void main(){
+        boddi o1 = new boddi();
+        boddi o2 = new boddi();
+        o1.a=6;
+        o1.b=7;
+        o1.add();
+        o1.sub();
+        o1.mul();
+        o1.div();
+
+    }
+}
